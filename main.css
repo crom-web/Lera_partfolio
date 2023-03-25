@@ -456,10 +456,10 @@ header span{
         z-index:2 ;
     }
 
-    hr{
+    .images hr{
         position: absolute;
         width: 1840px;
-        top:5495px;
+        top:5350px;
         
         border-width:1px;
         border-bottom-color:#5B594A;
@@ -657,6 +657,7 @@ header span{
     .about_me {
         background: #B6B3A5;
         
+        
     }
 
 
@@ -676,6 +677,12 @@ header span{
         display: flex;
         align-items: flex-start;
         margin-top: 3%;
+        position: relative;
+        z-index: 1;
+        
+        
+        
+        
         
 
     }
@@ -685,13 +692,15 @@ header span{
         transform: none;
         margin-bottom: 3%;
         margin-left: 8%;
+        
+
     }
 
     .about article{
         
         display: flex;
         flex-direction: column;
-               
+         
         
         width: 486px;
         
@@ -702,11 +711,16 @@ header span{
         line-height: 145%;
         color: #5B594A;
         margin-bottom:2%;
+        
+        
                 
     }
 
     .about article p{
         margin-top:0;
+        
+        
+
         
     }
 
@@ -715,6 +729,9 @@ header span{
         padding:2.45%;
         border: 1px solid #5B594A;
         border-left: transparent;
+        position: relative;
+        z-index: 1;
+        
     }
 
     .contacts{
@@ -911,3 +928,13 @@ header span{
         padding-bottom: 3.5%;
     }
 
+    .about_me hr{
+        position: absolute;
+        width: 1840px;
+        top:10370px;
+        
+        border-width:1px;
+        border-bottom-color:#5B594A;
+        border-top-color:transparent ;
+
+    }
